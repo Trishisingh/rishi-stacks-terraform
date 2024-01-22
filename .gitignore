@@ -4,6 +4,8 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.terraform.lock.hcl
+plan
 
 # Crash log files
 crash.log
@@ -39,3 +41,9 @@ override.tf.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Taskctl Build
+envfile
+.env
+/tmp
+tfplan
